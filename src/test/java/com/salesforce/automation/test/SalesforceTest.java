@@ -71,9 +71,11 @@ public class SalesforceTest extends TestCase {
 		assertTrue("Failed to select Leads Filter",
 				leadsPage.filterLeads("All Leads"));
 		String value = System.getProperty("value");
-		String key = System.getProperty("key");
-
-		assertNotNull("Lead Name not passed as param: " ,value);
+		String key =  System.getProperty("key");
+		if(value==null){
+			value = leadsPage.getDefaultName();
+			key = "Name";
+		}
 
 		/**
 		 * FIXME: unable to switch window Could not complete the Bonus task

@@ -2466,3 +2466,248 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 04/Sep/2015 14:09:56,519- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
 04/Sep/2015 14:09:57,529- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
 04/Sep/2015 14:09:59,044- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Larry, Larry']/../../..//parent::tr//input
+04/Sep/2015 14:43:19,121- LoginPage: Searching for Locator : By.id: username
+04/Sep/2015 14:43:19,185- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
+04/Sep/2015 14:43:19,312- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
+04/Sep/2015 14:43:19,501- LoginPage: Clicking Locator : By.id: Login
+04/Sep/2015 14:43:19,596- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:43:24,766- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:43:24,820- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
+04/Sep/2015 14:43:24,908- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:43:24,973- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:43:25,712- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:43:25,763- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:43:26,866- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
+04/Sep/2015 14:43:28,744- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='VP IT']/..//preceding-sibling::*)]//*[text()='Title']/../../..//parent::tr//input
+04/Sep/2015 14:43:33,974- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$3@5e838dcd
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: c3211f76-47c7-418b-89be-9dab83ec6a58
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:43:33,974- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:43:33,974- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:43:34,114- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='VP IT']/..//preceding-sibling::*)]//*[text()='Title']/../../..//parent::tr//input
+04/Sep/2015 14:43:39,640- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$3@1d516b8
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: c3211f76-47c7-418b-89be-9dab83ec6a58
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:43:39,640- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:43:39,640- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:43:39,730- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='VP IT']/..//preceding-sibling::*)]//*[text()='Title']/../../..//parent::tr//input
+04/Sep/2015 14:43:45,322- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$3@4886a2c1
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: c3211f76-47c7-418b-89be-9dab83ec6a58
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:43:45,322- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:43:45,323- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:43:45,416- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='VP IT']/..//preceding-sibling::*)]//*[text()='Title']/../../..//parent::tr//input
+04/Sep/2015 14:44:11,398- LoginPage: Searching for Locator : By.id: username
+04/Sep/2015 14:44:11,548- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
+04/Sep/2015 14:44:11,659- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
+04/Sep/2015 14:44:11,866- LoginPage: Clicking Locator : By.id: Login
+04/Sep/2015 14:44:11,948- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:44:16,603- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:44:16,682- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
+04/Sep/2015 14:44:16,772- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:44:16,841- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:44:17,602- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:44:17,664- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:44:18,687- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
+04/Sep/2015 14:44:22,087- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Title']/..//preceding-sibling::*)]//*[text()='VP IT']/../../..//parent::tr//input
+04/Sep/2015 14:44:23,018- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Title']/..//preceding-sibling::*)]//*[text()='VP IT']/../../..//parent::tr/td//span[text()='Del']
+04/Sep/2015 14:44:23,599- LeadsPage: Lead : VP IT deleted!
+04/Sep/2015 14:44:23,599- LeadsPage: Navigating to First Page
+04/Sep/2015 14:44:23,599- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='first']
+04/Sep/2015 14:44:28,806- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$3@61559ccf
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: f5959339-2611-401e-a829-a58f44dbd304
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:44:28,807- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Title']/..//preceding-sibling::*)]//*[text()='VP IT']/../../..//parent::tr//input
+04/Sep/2015 14:44:34,100- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@5e621d8
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: f5959339-2611-401e-a829-a58f44dbd304
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:44:34,101- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:44:34,101- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:44:34,191- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Title']/..//preceding-sibling::*)]//*[text()='VP IT']/../../..//parent::tr//input
+04/Sep/2015 14:44:39,566- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@678f7bca
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: f5959339-2611-401e-a829-a58f44dbd304
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:44:39,566- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:44:39,566- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:44:39,655- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Title']/..//preceding-sibling::*)]//*[text()='VP IT']/../../..//parent::tr//input
+04/Sep/2015 14:44:44,976- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@784b7c29
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: f5959339-2611-401e-a829-a58f44dbd304
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:44:44,977- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:44:44,977- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:44:45,060- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Title']/..//preceding-sibling::*)]//*[text()='VP IT']/../../..//parent::tr//input
+04/Sep/2015 14:45:16,733- LoginPage: Searching for Locator : By.id: username
+04/Sep/2015 14:45:16,854- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
+04/Sep/2015 14:45:17,048- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
+04/Sep/2015 14:45:17,270- LoginPage: Clicking Locator : By.id: Login
+04/Sep/2015 14:45:17,375- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:45:22,300- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:45:22,341- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
+04/Sep/2015 14:45:22,476- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:45:22,542- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:45:23,540- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:45:23,613- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:45:24,699- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
+04/Sep/2015 14:45:27,772- LeadsPage: Searching for Locator : By.xpath: .//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]
+04/Sep/2015 14:45:33,058- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@ed2be35
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: a8927abb-6f73-46dd-9b3b-59d2958d6fa1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:46:44,433- LoginPage: Searching for Locator : By.id: username
+04/Sep/2015 14:46:44,621- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
+04/Sep/2015 14:46:44,730- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
+04/Sep/2015 14:46:44,951- LoginPage: Clicking Locator : By.id: Login
+04/Sep/2015 14:46:45,032- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:46:51,656- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:46:51,696- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
+04/Sep/2015 14:46:52,173- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:46:52,250- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:46:53,065- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:46:53,123- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:46:54,172- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
+04/Sep/2015 14:46:55,774- LeadsPage: Searching for Locator : By.xpath: .//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span
+04/Sep/2015 14:47:01,270- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@6be0af27
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 056668b8-4030-462c-beb5-f544e48f8636
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:47:55,268- LoginPage: Searching for Locator : By.id: username
+04/Sep/2015 14:47:55,420- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
+04/Sep/2015 14:47:55,520- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
+04/Sep/2015 14:47:55,769- LoginPage: Clicking Locator : By.id: Login
+04/Sep/2015 14:47:55,839- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:48:00,373- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:48:00,408- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
+04/Sep/2015 14:48:00,544- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:48:00,597- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:48:01,763- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:48:01,803- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:48:02,811- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
+04/Sep/2015 14:48:04,448- LeadsPage: Searching for Locator : By.xpath: .//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span
+04/Sep/2015 14:48:09,500- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@27b70923
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: d638fd9b-eb12-4c82-9bdd-9227242a39d5
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:48:35,061- LoginPage: Searching for Locator : By.id: username
+04/Sep/2015 14:48:35,210- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
+04/Sep/2015 14:48:35,309- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
+04/Sep/2015 14:48:35,496- LoginPage: Clicking Locator : By.id: Login
+04/Sep/2015 14:48:35,561- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:48:40,589- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:48:40,626- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
+04/Sep/2015 14:48:40,757- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:48:40,814- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:48:41,507- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:48:41,548- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:48:42,657- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
+04/Sep/2015 14:48:44,461- LeadsPage: Searching for Locator : By.xpath: .//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span
+04/Sep/2015 14:48:58,589- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:48:59,121- LeadsPage: Clicking Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr/td//span[text()='Del']
+04/Sep/2015 14:48:59,700- LeadsPage: Lead : Robinson, Laura deleted!
+04/Sep/2015 14:48:59,700- LeadsPage: Navigating to First Page
+04/Sep/2015 14:48:59,700- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='first']
+04/Sep/2015 14:49:04,753- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$3@54217e66
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:04,754- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:09,918- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@8d9fdcf
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:09,918- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:09,918- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:10,011- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:15,216- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@6b6a94d2
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:15,216- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:15,216- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:15,313- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:20,660- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@5250c5b0
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:20,660- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:20,660- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:20,747- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:26,181- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@22075431
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:26,181- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:26,181- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:26,262- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:31,490- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@7f933ed1
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:31,490- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:31,490- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:31,574- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:36,976- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@449c4789
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:36,976- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:36,976- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:37,059- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:42,501- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@5704dd40
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:42,501- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:42,501- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:42,584- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input
+04/Sep/2015 14:49:47,897- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@73209745
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
+Session ID: 1ca37ac7-da8f-4325-a5c8-c304e818002c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
+04/Sep/2015 14:49:47,898- LeadsPage: Navigating to Next Page
+04/Sep/2015 14:49:47,898- LeadsPage: Clicking Locator : By.xpath: .//*[@class='paginator']/span[@class='prevNextLinks']/span[@class='prevNext']/a/img[@class='next']
+04/Sep/2015 14:49:47,978- LeadsPage: Searching for Locator : By.xpath: .//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='Name']/..//preceding-sibling::*)]//*[text()='Robinson, Laura']/../../..//parent::tr//input

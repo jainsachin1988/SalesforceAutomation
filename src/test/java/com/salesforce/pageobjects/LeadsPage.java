@@ -44,6 +44,7 @@ public class LeadsPage extends Page {
 		clickByLocator(firstPageLocator, logger,5);
 	}
 
+	
 	private By getInputBoxFromLocator(String key, String value) {
 		return By
 				.xpath(".//*[@class='listViewport leadBlock']//tr/td[count(//tr/td//*[text()='"
@@ -75,7 +76,7 @@ public class LeadsPage extends Page {
 			.xpath(".//*[@class='paginator']/span[@class='right']/input");
 	private By totalPageCountLocator = By
 			.xpath(".//*[@class='paginator']/span[@class='right']");
-	
+	private By defaultNameLocator = By.xpath(".//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span");
 	@SuppressWarnings("unused")
 	private boolean goToPageNum(int pageNum) {
 		logger.info("Navigating to  Page Num : " + pageNum);
@@ -100,6 +101,11 @@ public class LeadsPage extends Page {
 		} else {
 			return false;
 		}
+	}
+	
+	public String getDefaultName(){
+		waitForVisiblity(defaultNameLocator, logger);
+		return webDriver.findElement(defaultNameLocator).getText();
 	}
 
 	private boolean selectLeadsFilter(String value) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.salesforce.automation.test.SalesforceTest" time="21.685" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="com.salesforce.automation.test.SalesforceTest" time="36.281" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_71\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -59,18 +59,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testFeature" classname="com.salesforce.automation.test.SalesforceTest" time="21.685">
-    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@class=&apos;x-grid3-row x-grid3-row-first&apos;]//tr[1]/td[5]//span&quot;}&#10;Command duration or timeout: 15 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;&#10;System info: host: &apos;WARSJ185120-JQI&apos;, ip: &apos;153.60.10.30&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_71&apos;&#10;*** Element info: {Using=xpath, value=.//*[@class=&apos;x-grid3-row x-grid3-row-first&apos;]//tr[1]/td[5]//span}&#10;Session ID: 056668b8-4030-462c-beb5-f544e48f8636&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span"}
-Command duration or timeout: 15 milliseconds
+  <testcase name="testFeature" classname="com.salesforce.automation.test.SalesforceTest" time="36.281">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@class=&apos;x-grid3-row x-grid3-row-first&apos;]//tr[1]/td[5]//span&quot;}&#10;Command duration or timeout: 21 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;&#10;System info: host: &apos;WARSJ185120-JQI&apos;, ip: &apos;153.60.10.30&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_71&apos;&#10;*** Element info: {Using=xpath, value=.//*[@class=&apos;x-grid3-row x-grid3-row-first&apos;]//tr[1]/td[5]//span}&#10;Session ID: 4624a125-efd2-4e7c-94ac-b23277c4c056&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span"}
+Command duration or timeout: 21 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
 System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
 *** Element info: {Using=xpath, value=.//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span}
-Session ID: 056668b8-4030-462c-beb5-f544e48f8636
+Session ID: 4624a125-efd2-4e7c-94ac-b23277c4c056
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -87,29 +86,29 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
 System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous5613061337974364309webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous5613061337974364309webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10676)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous5613061337974364309webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous5613061337974364309webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12648)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous5613061337974364309webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12590)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous6893439106937064348webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous6893439106937064348webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10676)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous6893439106937064348webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous6893439106937064348webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12648)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/sj185120/AppData/Local/Temp/anonymous6893439106937064348webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12590)
 ]]></error>
-    <system-out><![CDATA[04/Sep/2015 14:46:44,433- LoginPage: Searching for Locator : By.id: username
-04/Sep/2015 14:46:44,621- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
-04/Sep/2015 14:46:44,730- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
-04/Sep/2015 14:46:44,951- LoginPage: Clicking Locator : By.id: Login
-04/Sep/2015 14:46:45,032- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
-04/Sep/2015 14:46:51,656- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
-04/Sep/2015 14:46:51,696- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
-04/Sep/2015 14:46:52,173- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
-04/Sep/2015 14:46:52,250- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
-04/Sep/2015 14:46:53,065- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
-04/Sep/2015 14:46:53,123- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
-04/Sep/2015 14:46:54,172- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
-04/Sep/2015 14:46:55,774- LeadsPage: Searching for Locator : By.xpath: .//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span
-04/Sep/2015 14:47:01,270- LeadsPage: Timed out after 5 seconds waiting for com.salesforce.pageobjects.Page$5@6be0af27
+    <system-out><![CDATA[04/Sep/2015 14:51:22,037- LoginPage: Searching for Locator : By.id: username
+04/Sep/2015 14:51:22,115- LoginPage: Entering text demo_user@salesforce.com @ Locator : By.id: username
+04/Sep/2015 14:51:22,219- LoginPage: Entering text jVpGt4qiPjVpGt4qiP @ Locator : By.id: password
+04/Sep/2015 14:51:22,406- LoginPage: Clicking Locator : By.id: Login
+04/Sep/2015 14:51:22,478- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:51:28,150- HomePage: Searching for Locator : By.xpath: .//*[@class='currentStatusUserName']
+04/Sep/2015 14:51:28,191- HomePage: Clicking Locator : By.xpath: .//*[@id='toolbar']/div/div/span[(@class='menuButtonLabel') and text()='Sales']/../../div[@class='menuButtonButton']
+04/Sep/2015 14:51:28,262- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:51:28,323- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:51:29,428- HomePage: Clicking Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']
+04/Sep/2015 14:51:29,493- LeadsPage: Searching for Locator : By.xpath: .//*[@class='zen']/div[contains(@class,'zen-hasTabOrganizer')]//*/li/a[text()='Leads']/../span
+04/Sep/2015 14:51:30,643- LeadsPage: Searching for Locator : By.xpath: .//*[@class='filterOverview']//select[@id='fcf']
+04/Sep/2015 14:51:32,656- LeadsPage: Searching for Locator : By.xpath: .//*[@class='x-grid3-row x-grid3-row-first']//tr[1]/td[5]//span
+04/Sep/2015 14:51:53,120- LeadsPage: Timed out after 20 seconds waiting for com.salesforce.pageobjects.Page$4@7cef307c
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
 System info: host: 'WARSJ185120-JQI', ip: '153.60.10.30', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_71'
-Session ID: 056668b8-4030-462c-beb5-f544e48f8636
+Session ID: 4624a125-efd2-4e7c-94ac-b23277c4c056
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=38.0}]
 ]]></system-out>

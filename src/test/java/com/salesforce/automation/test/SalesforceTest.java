@@ -72,10 +72,9 @@ public class SalesforceTest extends TestCase {
 				leadsPage.filterLeads("All Leads"));
 		String value = System.getProperty("value");
 		String key =  System.getProperty("key");
-		if(value==null){
-			value = leadsPage.getDefaultName();
-			key = "Name";
-		}
+		assertNotNull("Value param cannot be null", value);
+		assertNotNull("Key param cannot be null", key);
+
 
 		/**
 		 * FIXME: unable to switch window Could not complete the Bonus task

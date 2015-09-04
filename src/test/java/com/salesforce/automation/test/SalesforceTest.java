@@ -72,6 +72,9 @@ public class SalesforceTest extends TestCase {
 				leadsPage.filterLeads("All Leads"));
 		String value = System.getProperty("value");
 		String key = System.getProperty("key");
+
+		assertNotNull("Lead Name not passed as param: " ,value);
+
 		/**
 		 * FIXME: unable to switch window Could not complete the Bonus task
 		 */
